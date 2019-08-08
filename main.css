@@ -1,0 +1,10 @@
+.navbarHeader{
+    text-decoration: none;
+    font-size: 1.8em;
+    color: #e50914;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+}
+

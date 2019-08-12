@@ -1,10 +1,171 @@
-.navbarHeader{
-    text-decoration: none;
-    font-size: 1.8em;
-    color: #e50914;
-    display: inline-block;
-    vertical-align: middle;
-    cursor: pointer;
-    margin-right: 5px;
+/* BASIC STYLES */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+header {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+ul {
+    list-style: none;
 }
 
+
+  /* HEADER */
+#nav_bar {
+    float:none;
+    display: inline;
+}
+#nav_bar #about{
+    float: left;
+}
+#nav_bar #store{
+    float: left;
+}
+#nav_bar #sign_in {
+    background: #4887ef; 
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px; 
+    font-weight: bold;
+    float: right;
+}
+#nav_bar #gmail{
+    float: right;
+}
+#nav_bar #images{
+    float: right;
+}
+#nav_bar li {
+    display: inline-block;
+    padding: 8px;
+}
+.nav-links {
+    color: #404040;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li.nav-links a:hover {
+    text-decoration: underline;
+}
+#sign_in:hover { 
+    box-shadow: 1px 1px 5px #999;
+}
+#sign_in {
+    color: #fff;
+}
+
+
+  /* SEARCH BOX */
+.google #google_logo {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+}
+img {
+    width: 272px;
+    padding: 0px;
+}
+.searchBox {
+    text-align: center;
+    padding: 0px;
+}
+.input { 
+    width: 555px;
+    line-height: 42px;
+    padding: 0px;
+    background-color: white;
+}
+.searchBox .input {
+    padding: 0 8px;
+    border: solid 1px lightgray;
+    border-radius: 2em 2em 2em 2em;
+}
+.input:hover {
+    border-color: #e4e4e4;
+    padding-top: 0;
+}
+.micBtn {
+    color: blue;
+    float: right;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BUTTONS */
+.buttons {
+      text-align: center;
+      padding-top: 30px;
+      margin-bottom: 300px;
+}
+.buttons #google_search {
+   display: inline;
+   padding: .5rem 2rem;
+   margin: 0;
+   text-decoration: none;
+   background: #f2f2f2;
+   color: #757575;
+   border: 1px solid #f2f2f2;
+   border-radius: 2px;
+   font-size: 1rem;
+   cursor: pointer;
+}
+.buttons #im_feeling_lucky {
+   display: inline;
+   padding: .5rem 2rem;
+   margin: 0;
+   text-decoration: none;
+   background: #f2f2f2;
+   color: #757575;
+   border: 1px solid #f2f2f2;
+   border-radius: 2px;
+   font-size: 1rem;
+   cursor: pointer;
+}
+.buttons a {
+     display: inline-block;
+     margin-top: 2em;
+     text-align: center;
+}
+
+
+  /* FOOTER */
+footer  {
+    background: #f2f2f2;
+    border-top: solid 2px #e4e4e4;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+}
+footer ul li {
+    display: inline;
+    color: #666666;
+    font-size: 14px;
+    padding: 13px;
+}
+footer ul {
+    float: left;
+    padding: 1px;
+}
+footer ul a:hover {
+    text-decoration: underline;
+}
+.footer-right {
+    float: right;
+}

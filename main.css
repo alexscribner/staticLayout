@@ -17,7 +17,7 @@ ul {
 
   /* HEADER */
 #nav_bar {
-    float:none;
+    float: none;
     display: inline;
 }
 #nav_bar #about{
@@ -78,7 +78,11 @@ img {
 }
 .searchBox {
     text-align: center;
-    padding: 0px;
+    padding-right: 20px;
+    background: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 2em 2em 2em 2em;
 }
 .input { 
     width: 555px;
